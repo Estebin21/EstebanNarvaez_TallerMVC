@@ -14,7 +14,7 @@ namespace EstebanNarvaez_TallerMVC.Models
         public bool AceptaExtranjeros {  get; set; }
         [ForeignKey("Estadio")]
         public int IdEstadio {  get; set; }
-        public Estadio Estadio { get; set; }
+        public Estadio? Estadio { get; set; }
 
     }
 }

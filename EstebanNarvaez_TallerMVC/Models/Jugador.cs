@@ -13,7 +13,7 @@ namespace EstebanNarvaez_TallerMVC.Models
         public int Edad {  get; set; }
         [ForeignKey("Equipo")]
         public int IdEquipo { get; set; }
-        public Equipo Equipo { get; set; }
+        public Equipo? Equipo { get; set; }
 
     }
 }
