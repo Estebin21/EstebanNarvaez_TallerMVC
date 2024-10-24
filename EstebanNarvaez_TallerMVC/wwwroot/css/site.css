@@ -20,3 +20,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.Header{
+    font-size: 40px;
+    color:blue;
+}
+.Subtitulo{
+    text-decoration: underline;
+}
+
+.container{
+    color:black;
+}
